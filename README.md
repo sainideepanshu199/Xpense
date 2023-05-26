@@ -1,6 +1,6 @@
 # xpense_flutter_web
 
-A new Flutter projects.
+A new Flutter projects.s
 
 ## Getting Started
 
