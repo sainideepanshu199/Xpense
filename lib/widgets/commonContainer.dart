@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:xpense_flutter_web/extensions/hover_extensions.dart';
 import 'package:xpense_flutter_web/utils/colors.dart';
 
 import '../utils/constants.dart';
@@ -63,7 +64,7 @@ Widget CommonContainer(String s1, String s2, String s3, image, bool imageLeft) {
               'Learn More',
               style: TextStyle(color: AppColors.primary),
             ),
-          )
+          ).moveUpOnHover
         ],
       )),
       !imageLeft

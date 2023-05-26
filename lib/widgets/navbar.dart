@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
+import 'package:xpense_flutter_web/extensions/hover_extensions.dart';
 import 'package:xpense_flutter_web/utils/colors.dart';
 import 'package:xpense_flutter_web/utils/styles.dart';
 
@@ -13,7 +14,8 @@ class NavBar extends StatefulWidget {
 class _NavBarState extends State<NavBar> {
   @override
   Widget build(BuildContext context) {
-    return ScreenTypeLayout(mobile: MobileNavBar(), desktop: DesktopNavBar());
+    return ScreenTypeLayout(mobile: MobileNavBar(), desktop: DesktopNavBar())
+        .showCursorOnHover;
   }
 
   //=======================MOBILE===================================//
@@ -40,10 +42,10 @@ class _NavBarState extends State<NavBar> {
           navLogo(),
           Row(
             children: [
-              navButton('Features'),
-              navButton('About us'),
-              navButton('Pricing'),
-              navButton('Feedback'),
+              navButton('Features').moveUpOnHover,
+              navButton('About us').moveUpOnHover,
+              navButton('Pricing').moveUpOnHover,
+              navButton('Feedback').moveUpOnHover,
             ],
           ),
           Container(
