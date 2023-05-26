@@ -27,7 +27,7 @@ class _Container1State extends State<Container3> {
         'AlWAYS ONLINE',
         'Real-time \nsupport \nwith cloud',
         'Tellus lacus morbi sagittis lacus in.Amet nisl at \nmauris enim ',
-        illustration1,
+        illustration2,
         false);
   }
 
@@ -38,7 +38,7 @@ class _Container1State extends State<Container3> {
       'ALWAYS ONLINE',
       'Real-time \nsupport \nwith cloud',
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-      illustration1,
+      illustration2,
     );
   }
 }
