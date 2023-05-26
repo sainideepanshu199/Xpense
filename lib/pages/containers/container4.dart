@@ -27,7 +27,7 @@ class _Container4State extends State<Container4> {
         'FREE SOME COST',
         'Save cost \nfor you \nand family',
         'Tellus lacus morbi sagittis lacus in. Amet nisl at \nmauris enim accumsan nisi, tincidunt vel. \nEnim ipsum, amet quis ullamcorper eget ut.',
-        illustration2,
+        'assets/images/illustrator.png',
         true);
   }
 
@@ -38,7 +38,7 @@ class _Container4State extends State<Container4> {
       'FREE SOME COST',
       'Save cost \nfor you \nand family',
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-      illustration2,
+      'assets/images/illustrator.png',
     );
   }
 }
