@@ -3,7 +3,6 @@ import 'package:responsive_builder/responsive_builder.dart';
 import 'package:xpense_flutter_web/widgets/commonContainer.dart';
 
 import '../../utils/colors.dart';
-import '../../utils/constants.dart';
 
 class Container4 extends StatefulWidget {
   const Container4({super.key});
@@ -27,7 +26,7 @@ class _Container4State extends State<Container4> {
         'FREE SOME COST',
         'Save cost \nfor you \nand family',
         'Tellus lacus morbi sagittis lacus in. Amet nisl at \nmauris enim accumsan nisi, tincidunt vel. \nEnim ipsum, amet quis ullamcorper eget ut.',
-        'assets/images/illustrator.png',
+        'assets/images/illustrator.PNG',
         true);
   }
 
@@ -38,7 +37,7 @@ class _Container4State extends State<Container4> {
       'FREE SOME COST',
       'Save cost \nfor you \nand family',
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
-      'assets/images/illustrator.png',
+      'assets/images/illustrator.PNG',
     );
   }
 }
